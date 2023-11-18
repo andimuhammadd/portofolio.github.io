@@ -1,0 +1,66 @@
+main {
+    display: flex;
+}
+body {
+    font-family: 'Quicksand',sans-serif;
+}
+  
+  h2,
+  h3 {
+    color: #f14242;
+  }
+  
+  footer {
+    padding: 20px;
+    color: white;
+    background-color:#f14242;
+  }
+  
+  nav {
+    background-color: #f14242;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    margin-top: 0%;
+  }
+
+  nav a {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
+
+  nav ul {
+    display: flex;
+    padding-inline: 4rem;
+  }
+
+  nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  
+  .profile header {
+    text-align: center;
+  }
+
+  .profile {
+    width: 200px;
+  }
+
+  @media screen and (max-width: 600px) {
+    #content,
+    main {
+      display: block;
+    }
+  }
+
+  .Pendidikan,h3{
+    color: black;
+  }
